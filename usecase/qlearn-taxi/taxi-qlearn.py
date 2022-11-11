@@ -83,7 +83,7 @@ with open('taxi-v3-q-learning.pkl', 'wb') as f:
 
 # Step 2: Evaluate the model and build JSON
 eval_env = env
-mean_reward, std_reward = Trainer.evaluate_agent(
+mean_reward, std_reward = trainer.evaluate_agent(
                                     model["max_steps"], 
                                     model["n_eval_episodes"], 
                                     model["qtable"], 
