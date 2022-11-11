@@ -22,7 +22,9 @@ python taxy-qlearn.py
 
 ## Result
 
-<video src='./replay.mp4' >
+Replay: 
+
+<video src='./replay.mp4'> </video>
 
 Metric:
 
