@@ -24,7 +24,8 @@ python taxy-qlearn.py
 
 Replay: 
 
-<video src='./replay.mp4'> </video>
+![Alt Text]("./replay.gif")
+
 
 Metric:
 
