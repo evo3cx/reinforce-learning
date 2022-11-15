@@ -22,12 +22,11 @@ python taxy-qlearn.py
 
 ## Result
 
-Replay: 
+### Replay: 
 
-![Alt Text]("./replay.gif")
+<img alt="replay gih" src="https://github.com/evo3cx/reinforce-learning/blob/main/usecase/qlearn-taxi/replay.gif" />
 
-
-Metric:
+### Metric:
 
 ```json
 {
