@@ -4,11 +4,13 @@ import time
 import os
 import pandas as pd
 
-# create a environemtn
+# create a environemnt
 env = Env()
 
 # QTable : contains the Q-Value for every (state, action) pair
 qtable = np.random.rand(env.stateCount, env.actionCount).tolist()
+# print(env.stateCount, env.actionCount)
+
 
 # hyperparameters
 epochs = 30
@@ -23,7 +25,7 @@ for i in range(epochs):
 
     while not done:
         try: 
-            os.system('clear')
+            # os.system('clear')
 
             print("epoch #", i+1, "/", epochs)
             env.render()
